@@ -31,7 +31,18 @@ h2, h3 {
                 1px 1px 0 #000;
 }
 
+.bg-green-800 {
+  background-color: #34D399; /* Change to your desired background color */
+  margin-top: 1rem; /* Add space between the navbar and the banner */
+  padding: 0.5rem 1rem; /* Adjust padding to make the banner thinner */
+}
+
 @media (max-width: 640px) {
+  .bg-green-800 {
+    margin-top: 0.5rem; /* Adjust margin for smaller screens */
+    padding: 0.25rem 0.5rem; /* Adjust padding for smaller screens */
+  }
+
   .blend-logo {
     max-width: 80%; /* Adjust the maximum width of the logo */
     margin-left: auto;
