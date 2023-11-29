@@ -44,3 +44,7 @@ h2, h3 {
     font-size: 1.125rem; /* Adjust font size for paragraphs */
   }
 }
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
