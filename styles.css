@@ -15,7 +15,7 @@ body {
 
 /* Update text color for headings */
 h2, h3 {
-  color: #8d8843; /* Set a lighter text color for better readability */
+  color: #692121; /* Set a lighter text color for better readability */
 }
 
 /* Update text color for menu items */
@@ -24,7 +24,7 @@ h2, h3 {
 }
 
 .outline-black {
-  outline: solid !important;
+  outline: none !important;
   text-shadow: -1px -1px 0 #000,  
                 1px -1px 0 #000,  
               -1px 1px 0 #000,  
@@ -38,7 +38,7 @@ h2, h3 {
     margin-right: auto;
     display: block;
   }
-  
+
   .container {
     padding: 2rem; /* Adjust padding as needed */
   }
