@@ -11,6 +11,12 @@ body {
 }
 
 /* Navigation styles */
+nav {
+  position: absolute;
+  top: 50px; /* Adjust this value as needed to position the navbar */
+  width: 100%;
+  z-index: 1000; /* Ensure the navbar stays on top of other content */
+}
 nav img {
   max-width: 120px; /* Adjust logo size */
 }
@@ -49,6 +55,14 @@ h2 {
 }
 
 /* Introductory section */
+.section-intro {
+  height: calc(100vh - 50px); /* Adjust the height to leave space for the navbar */
+  background-image: url('./assets/IMG_20231130_101359.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  position: relative;
+  top: -120px; /* Move the background image up */
+}
 /* Transparent overlay for text */
 .relative {
   position: relative;
@@ -59,28 +73,6 @@ h2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-/* Additional section */
-/* Example styles for a new section */
-.additional-section {
-  background-color: #1a1a1a; /* Dark background */
-  color: #fff; /* White text */
-  padding: 40px;
-}
-
-/* Font and text styles for additional sections */
-.additional-section h3 {
-  font-size: 24px;
-  margin-bottom: 20px;
-  color: #6ab47d; /* Forest Green */
-}
-
-.additional-section p {
-  font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 20px;
-  color: #6ab47d; /* Forest green */
 }
 
 /* Footer styles */
@@ -100,4 +92,10 @@ footer a {
 
 footer a:hover {
   color: #6ab47d; /* Forest green on hover for footer links */
+}
+
+.text-green-500 {
+  color: #6ab47d; /* Forest green */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  padding: 10px 20px;
 }
