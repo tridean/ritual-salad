@@ -1,68 +1,103 @@
-
-.blend-logo {
-  mix-blend-mode: multiply;
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.social-icon {
-  width: 30px;
-  height: 30px;
-}
-
+/* Apply a consistent font family */
 body {
-  font-family: 'Cinzel', serif;
-  color: #333; /* Darker text color for better readability */
+  font-family: 'Arial', sans-serif;
 }
 
-/* Update text color for headings */
-h2, h3 {
-  color: #882929; /* Set a lighter text color for better readability */
+/* Navigation styles */
+nav img {
+  max-width: 120px; /* Adjust logo size */
 }
 
-/* Update text color for menu items */
-.menu-item-text {
-  color: #ffffff; /* Set a lighter text color for better readability */
+nav a {
+  transition: all 0.3s ease-in-out; /* Smooth hover effect */
+  color: #6ab47d; /* Forest green */
 }
 
-.outline-black {
-  outline: none !important;
-  text-shadow: -1px -1px 0 #000,  
-                1px -1px 0 #000,  
-              -1px 1px 0 #000,  
-                1px 1px 0 #000;
+/* Mobile menu button */
+#mobile-menu-btn svg {
+  fill: #fff; /* White color for mobile menu button icon */
 }
 
-.bg-green-800 {
-  background-color: #34D399; /* Change to your desired background color */
-  margin-top: 1rem; /* Add space between the navbar and the banner */
-  padding: 0.5rem 1rem; /* Adjust padding to make the banner thinner */
+/* Main content styles */
+h1,
+h2 {
+  color: #6ab47d; /* Forest green */
 }
 
-@media (max-width: 640px) {
-  .bg-green-800 {
-    margin-top: 0.5rem; /* Adjust margin for smaller screens */
-    padding: 0.25rem 0.5rem; /* Adjust padding for smaller screens */
-  }
-
-  .blend-logo {
-    max-width: 80%; /* Adjust the maximum width of the logo */
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-
-  .container {
-    padding: 2rem; /* Adjust padding as needed */
-  }
-
-  .text-3xl {
-    font-size: 2rem; /* Adjust font size for headers */
-  }
-
-  .text-lg {
-    font-size: 1.125rem; /* Adjust font size for paragraphs */
-  }
+.text-green-500 {
+  color: #6ab47d !important; /* Cranberry */
 }
 
-.font-cinzel {
-  font-family: 'Cinzel', serif;
+.text-gray-400 {
+  color: #9ca3af; /* Gray for text */
+}
+
+.bg-black {
+  background-color: #000; /* Black background */
+}
+
+/* About Us section */
+.container {
+  margin-bottom: 60px; /* Adds space between sections */
+}
+
+/* Introductory section */
+/* Transparent overlay for text */
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Additional section */
+/* Example styles for a new section */
+.additional-section {
+  background-color: #1a1a1a; /* Dark background */
+  color: #fff; /* White text */
+  padding: 40px;
+}
+
+/* Font and text styles for additional sections */
+.additional-section h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #6ab47d; /* Forest Green */
+}
+
+.additional-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #6ab47d; /* Forest green */
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #000; /* Black text */
+}
+
+.bg-gold {
+  background-color: #632220; /* Cranberry background for footer */
+}
+
+footer a {
+  color: #000; /* Black color for footer links */
+}
+
+footer a:hover {
+  color: #6ab47d; /* Forest green on hover for footer links */
 }
