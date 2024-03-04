@@ -52,11 +52,6 @@ h2 {
   background-color: #000; /* Black background */
 }
 
-/* About Us section */
-.container {
-  margin-bottom: 60px; /* Adds space between sections */
-}
-
 /* Introductory section */
 .section-intro {
   height: calc(100vh - 0px); /* Adjust the height to leave space for the navbar */
