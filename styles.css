@@ -13,7 +13,7 @@ body {
 /* Navigation styles */
 nav {
   position: absolute;
-  top: 50px; /* Adjust this value as needed to position the navbar */
+  top: 20px; /* Adjust this value as needed to position the navbar */
   width: 100%;
   z-index: 1000; /* Ensure the navbar stays on top of other content */
 }
@@ -21,6 +21,9 @@ nav img {
   max-width: 120px; /* Adjust logo size */
 }
 
+nav .container {
+  padding-left: 100px;
+}
 nav a {
   transition: all 0.3s ease-in-out; /* Smooth hover effect */
   color: #6ab47d; /* Forest green */
