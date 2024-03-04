@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritual Salad - Menu</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome - Icons Library -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body class="bg-black text-white font-roboto">
+
+    <!-- Navigation -->
+    <nav class="bg-black text-white py-4">
+      <div class="container mx-auto flex justify-between items-center">
+          <div class="flex items-center">
+              <img src="./assets/Ritual Salad & Apothecary.jpg" alt="Ritual Salad Logo" class="h-16 w-auto" />
+              <h1 class="text-2xl md:text-4xl font-semibold ml-4 text-green-500">Ritual Salad</h1>
+          </div>
+          <div class="hidden md:flex items-center space-x-6">
+              <!-- Updated link to go back to the main page -->
+              <a href="index.html" class="hover:text-green-500">Home</a>
+              <a href="gallery.html" class="hover:text-green-500">Gallery</a>
+              <div class="flex items-center space-x-4">
+                  <!-- Clickable social media icons -->
+                  <a href="#" class="text-white hover:text-green-500"><i class="fab fa-facebook"></i></a>
+                  <a href="#" class="text-white hover:text-green-500"><i class="fab fa-instagram"></i></a>
+              </div>
+              <a href="#" class="hover:text-green-500">About Us</a>
+          </div>
+          <div class="md:hidden">
+              <button id="mobile-menu-btn" class="focus:outline-none">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M4 6h16M4 12h16m-7 6h7"></path>
+                  </svg>
+              </button>
+          </div>
+      </div>
+        <!-- Mobile menu -->
+    <div id="mobile-menu" class="md:hidden hidden">
+      <a href="index.html" class="block py-2 px-4 hover:bg-gray-800">Home</a>
+      <!-- Adjusted margin for better alignment -->
+      <a href="menu.html" class="block py-2 px-4 hover:bg-gray-800">Menu</a>
+      <div class="flex items-center space-x-4">
+          <!-- Clickable social media icons -->
+          <a href="#" class="text-white hover:text-green-500"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-white hover:text-green-500"><i class="fab fa-instagram"></i></a>
+      </div>
+      <a href="#" class="block py-2 px-4 hover:bg-gray-800">About Us</a>
+  </div>
+</nav>
+
+    <!-- Main content: Menu -->
+    <main class="mt-48 md:mt-50 relative">
+        <section class="container mx-auto mt-8 flex justify-center items-center">
+            <div class="py-8 max-w-3xl">
+                <h2 class="text-3xl md:text-5xl font-semibold text-gold">Menu</h2>
+                <p class="mt-4 text-lg md:text-xl text-gray-400">
+                    The menu at Ritual Salad is a little different than what you’re used to. You imagine it, we build it. Is it a bowl? Is it a salad? You decide. Create your own spellbinding salad by choosing your protein, veggies, some fun toppings to spice it up and then dressings of your dreams!! Finally pick one of our decadent sides. Creating a salad this good should be a Ritual.
+                </p>
+                <div class="mt-8">
+                    <h3 class="text-xl md:text-2xl font-semibold text-gold">Choose your base:</h3>
+                    <p class="mt-2">Spring Mix, Rice or Half and Half (mix of both)</p>
+                </div>
+                <div class="mt-8">
+                    <h3 class="text-xl md:text-2xl font-semibold text-gold">Choose 1 protein:</h3>
+                    <p class="mt-2">Chicken, hard boiled eggs, cottage cheese, edamame, wild rice</p>
+                </div>
+                <div class="mt-8">
+                    <h3 class="text-xl md:text-2xl font-semibold text-gold">Choose 3 veggies:</h3>
+                    <p class="mt-2">Marinated: Olives, jalapenos, mushrooms, broccoli, beets and artichoke hearts.</p>
+                    <p>Roasted: Carrots, beets, brussels sprouts and sweet potatoes.</p>
+                    <p>Fresh/Raw: Green onions, red onions, cherry tomatoes, stringed cucumbers, bell peppers, shredded carrots, corn, chickpeas, seasonal fruits.</p>
+                </div>
+                <div class="mt-8">
+                    <h3 class="text-xl md:text-2xl font-semibold text-gold">Choose 3 toppings:</h3>
+                    <p class="mt-2">Bacon bits, feta cheese, blue cheese, shredded cheeses, pepitas/pumpkin seeds, sunflower seeds, chia/flax/hemp trio, dried fruits, GF* croutons, corn nuts, corn chips, honey sesame crisps.</p>
+                </div>
+                <div class="mt-8">
+                    <h3 class="text-xl md:text-2xl font-semibold text-gold">Choose 2 dressings:</h3>
+                    <p class="mt-2">Magickal Maple Balsamic, Spellbound Sesame Ginger, Ostara Orange and Roasted Garlic, Greek Goddess Vinaigrette, Brujas Smoky Cilantro Lime, Beltane Blue Cheese, EBC Ranch*.</p>
+                </div>
+                <div class="mt-8">
+                    <h3 class="text-xl md:text-2xl font-semibold text-gold">Choose 1 side:</h3>
+                    <p class="mt-2">NANA Bread, assorted local breads based on availability, Pita bread, GF* bread, GF* pita, GF* tortillas.</p>
+                </div>
+                <div class="mt-8">
+                    <h3 class="text-xl md:text-2xl font-semibold text-gold">Add On’s and Extra’s:</h3>
+                    <p class="mt-2">Add on any extras you would like!! Avocado, dressings, proteins, cheeses, breads, chips</p>
+                </div>
+            </div>
+          </section>
+        </main>
+
+<!-- Footer -->
+<footer class="bg-gold py-8">
+  <div class="container mx-auto">
+      <div class="flex justify-center items-center">
+          <img src="./assets/Ritual Salad & Apothecary.jpg" alt="Ritual Salad Logo" class="h-10 w-auto" />
+          <h1 class="text-lg md:text-xl font-semibold ml-4 text-black">Ritual Salad</h1>
+      </div>
+      <div class="mt-4 text-center text-gray-400">
+          <p>123 Mystical Lane, Duluth, MN</p>
+          <p>Email: info@ritualsalad.com</p>
+          <p>Phone: +1 123 456 7890</p>
+      </div>
+      <div class="mt-4 flex justify-center items-center">
+          <!-- Social media icons -->
+          <a href="#" class="text-black hover:text-gold mx-2"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-black hover:text-gold mx-2"><i class="fab fa-instagram"></i></a>
+      </div>
+  </div>
+</footer>
+
+<!-- JavaScript for mobile menu toggle -->
+<script>
+  document.getElementById('mobile-menu-btn').addEventListener('click', function () {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+  });
+</script>
+
+</body>
+
+</html>
