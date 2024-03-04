@@ -22,7 +22,7 @@ nav img {
 }
 
 nav .container {
-  padding-left: 120px;
+  
 }
 nav a {
   transition: all 0.3s ease-in-out; /* Smooth hover effect */
@@ -59,12 +59,12 @@ h2 {
 
 /* Introductory section */
 .section-intro {
-  height: calc(100vh - 50px); /* Adjust the height to leave space for the navbar */
+  height: calc(100vh - 0px); /* Adjust the height to leave space for the navbar */
   background-image: url('./assets/IMG_20231130_101359.jpg');
   background-size: cover;
   background-position: center bottom;
   position: relative;
-  top: -120px; /* Move the background image up */
+  top: -50px; /* Move the background image up */
 }
 /* Transparent overlay for text */
 .relative {
