@@ -22,7 +22,7 @@ nav img {
 }
 
 nav .container {
-  padding-left: 100px;
+  padding-left: 120px;
 }
 nav a {
   transition: all 0.3s ease-in-out; /* Smooth hover effect */
