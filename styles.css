@@ -18,7 +18,7 @@ nav {
   z-index: 1000; /* Ensure the navbar stays on top of other content */
 }
 nav img {
-  max-width: 120px; /* Adjust logo size */
+  max-width: 240px; /* Adjust logo size */
 }
 
 nav .container {

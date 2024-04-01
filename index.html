@@ -17,69 +17,73 @@
 <body class="bg-black text-white font-roboto">
 
     <!-- Navigation -->
-<nav class="bg-black text-white py-4">
-    <div class="container mx-auto flex justify-between items-center">
-        <a href="https://order.toasttab.com/online/ritual-salad-1802-w-superior-st/" target="_blank">
-            <button  class="bg-green-500 hover:bg-green-700 text-white font-bold py-6 px-10 rounded-full whitespace-nowrap">
-            Order Online! </button>
-        </a>
-        <div class="container mx-auto flex justify-center items-center">
-            <img src="./assets/PNG Ritual Salad small_white.png" alt="Ritual Salad Logo" class="h-auto w-auto" />
+    <nav class="bg-black text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="container mx-auto flex justify-center items-center">
+                <img src="./assets/PNG Ritual Salad small_white.png" alt="Ritual Salad Logo" class="h-auto w-auto" />
+            </div>
+            <div class="hidden md:flex items-center space-x-6">
+                <!-- Update the Menu button link -->
+                <a href="menu.html" class="hover:text-green-500">Menu</a>
+                <a href="gallery.html" class="hover:text-green-500">Gallery</a>
+                <div class="flex items-center space-x-4">
+                    <!-- Clickable social media icons -->
+                    <a href="https://m.facebook.com/people/Ritual-Salad/61551633924342/" class="text-white hover:text-green-500"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/ritualsalad/" class="text-white hover:text-green-500"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-btn" class="focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
         </div>
-        <div class="hidden md:flex items-center space-x-6">
-            <!-- Update the Menu button link -->
-            <a href="menu.html" class="hover:text-green-500">Menu</a>
-            <a href="gallery.html" class="hover:text-green-500">Gallery</a>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="md:hidden hidden">
+            <a href="menu.html" class="block py-2 px-4 hover:bg-gray-800">Menu</a>
+            <a href="gallery.html" class="block py-2 px-4 hover:bg-gray-800">Gallery</a>
             <div class="flex items-center space-x-4">
                 <!-- Clickable social media icons -->
                 <a href="https://m.facebook.com/people/Ritual-Salad/61551633924342/" class="text-white hover:text-green-500"><i class="fab fa-facebook"></i></a>
                 <a href="https://www.instagram.com/ritualsalad/" class="text-white hover:text-green-500"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
-        <div class="md:hidden">
-            <button id="mobile-menu-btn" class="focus:outline-none">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M4 6h16M4 12h16m-7 6h7"></path>
-                </svg>
-            </button>
-        </div>
-    </div>
-    <!-- Mobile menu -->
-    <div id="mobile-menu" class="md:hidden hidden">
-        <a href="menu.html" class="block py-2 px-4 hover:bg-gray-800">Menu</a>
-        <a href="gallery.html" class="block py-2 px-4 hover:bg-gray-800">Gallery</a>
-        <div class="flex items-center space-x-4">
-            <!-- Clickable social media icons -->
-            <a href="https://m.facebook.com/people/Ritual-Salad/61551633924342/" class="text-white hover:text-green-500"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/ritualsalad/" class="text-white hover:text-green-500"><i class="fab fa-instagram"></i></a>
-        </div>
-    </div>
-</nav>
+    </nav>
 
 
     <!-- Main content -->
     <main class="mt-8 md:mt-16 relative">
 
         <!-- Introductory section -->
-        <section class="section-intro relative flex items-center justify-center"
+        <section class="section-intro relative flex"
             style="background-image: url('./assets/IMG_20231130_101359.jpg');">
         </section>
 
         <!-- About Us section -->
-        <section class="container mx-auto mt-8 flex justify-center items-center">
-            <div class="py-8 max-w-3xl">
+        <section class="container mx-auto mt-8 flex">
+            <div class="py-8">
                 <h2 class="text-3xl md:text-5xl font-semibold text-gold">About Us</h2>
                 <p class="mt-4 text-lg md:text-xl text-gray-400">Ritual Salad - a fresh local salad shop with a magical twist! Located in Duluth, MN, my salads and bowls will make you come back for seconds, while the metaphysical shop and apothecary will have you dreaming about abundance, health, and balance in your life. From crystals and veils, to culturally respectful smudging sticks and more, Ritual Salad and Apothecary is a one-stop witchy shop.</p>
             </div>
         </section>
 
         <!-- Apothecary section -->
-        <section class="container mx-auto mt-8 flex justify-center items-center">
-            <div class="py-8 max-w-3xl">
+        <section class="container mx-auto mt-8 flex">
+            <div class="py-8">
                 <h2 class="text-3xl md:text-4xl font-semibold text-gold">The Apothecary</h2>
                 <p class="mt-4 text-lg md:text-xl text-gray-400">Explore our selection of mystical herbs, crystals, and other items to enhance your spiritual journey.</p>
+            </div>
+        </section>
+
+        <!-- Hours section -->
+        <section class="container mx-auto mt-8 flex">
+            <div class="py-8">
+                <h2 class="text-3xl md:text-4xl font-semibold text-gold">Hours</h2>
+                <p class="mt-4 text-lg md:text-xl text-gray-400">10:30am - 6pm <br> Open seven days a week, closed on all federal holidays.</p>
             </div>
         </section>
 
@@ -100,19 +104,18 @@
                     <a href="https://m.facebook.com/people/Ritual-Salad/61551633924342/" class="text-black hover:text-gold mx-2"><i class="fab fa-facebook"></i></a>
                     <a href="https://www.instagram.com/ritualsalad/" class="text-black hover:text-gold mx-2"><i class="fab fa-instagram"></i></a>
                 </div>
-                </div>
-            </footer>
-    
-        </main>
-    
-        <!-- JavaScript for mobile menu toggle -->
-        <script>
-            document.getElementById('mobile-menu-btn').addEventListener('click', function () {
-                document.getElementById('mobile-menu').classList.toggle('hidden');
-            });
-        </script>
-    
-    </body>
-    
-    </html>
-    
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- JavaScript for mobile menu toggle -->
+    <script>
+        document.getElementById('mobile-menu-btn').addEventListener('click', function () {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+
+</html>
