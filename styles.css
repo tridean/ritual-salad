@@ -59,7 +59,7 @@ h2 {
   background-size: cover;
   background-position: center bottom;
   position: relative;
-  top: -50px; /* Move the background image up */
+  top: -100px; /* Move the background image up */
 }
 /* Transparent overlay for text */
 .relative {

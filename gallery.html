@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritual Salad - Gallery</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome - Icons Library -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body class="bg-black text-white font-roboto">
+
+    <!-- Navigation -->
+    <nav class="bg-black text-white py-0">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="container mx-auto flex justify-center items-center md:pl-40">
+                <img src="./assets/PNG Ritual Salad small_white.png" alt="Ritual Salad Logo" class="h-auto w-auto" />
+            </div>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="index.html" class="hover:text-green-500">Home</a>
+                <!-- Updated link to go back to the main page -->
+                <a href="menu.html" class="hover:text-green-500">Menu</a>
+                <div class="flex items-center space-x-4">
+                    <!-- Clickable social media icons -->
+                    <a href="https://m.facebook.com/people/Ritual-Salad/61551633924342/" class="text-white hover:text-green-500"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/ritualsalad/" class="text-white hover:text-green-500"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-btn" class="focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="md:hidden hidden">
+            <a href="index.html" class="block py-2 px-4 hover:bg-gray-800">Home</a>
+            <a href="menu.html" class="block py-2 px-4 hover:bg-gray-800">Menu</a>
+            <div class="flex items-center space-x-4">
+                <!-- Clickable social media icons -->
+                <a href="https://m.facebook.com/people/Ritual-Salad/61551633924342/" class="text-white hover:text-green-500"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/ritualsalad/" class="text-white hover:text-green-500"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main content: Gallery -->
+    <main class="mt-56 md:mt-60 relative">
+        <section class="container mx-auto mt-8 md:pt-20">
+            <!-- Placeholder images -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="border border-white rounded-md overflow-hidden">
+                    <img src="./assets/IMG_8725.jpg" alt="Gallery Image 1" class="w-full h-auto">
+                </div>
+                <div class="border border-white rounded-md overflow-hidden">
+                    <img src="./assets/IMG_8656.jpg" alt="Gallery Image 1" class="w-full h-auto">
+                </div>
+                <div class="border border-white rounded-md overflow-hidden">
+                    <img src="./assets/IMG_8586.jpg" alt="Gallery Image 1" class="w-full h-auto">
+                </div>
+                <div class="border border-white rounded-md overflow-hidden">
+                    <img src="./assets/IMG_8673.jpg" alt="Gallery Image 1" class="w-full h-auto">
+                </div>
+                <div class="border border-white rounded-md overflow-hidden">
+                    <img src="./assets/IMG_8706.jpg" alt="Gallery Image 2" class="w-full h-auto">
+                </div>
+                <div class="border border-white rounded-md overflow-hidden">
+                    <img src="./assets/IMG_8688.jpg" alt="Gallery Image 3" class="w-full h-auto">
+                </div>
+                <div class="border border-white rounded-md overflow-hidden">
+                    <img src="./assets/IMG_8711.jpg" alt="Gallery Image 3" class="w-full h-auto">
+                </div>
+                <div class="border border-white rounded-md overflow-hidden">
+                    <img src="./assets/IMG_8657.jpg" alt="Gallery Image 3" class="w-full h-auto">
+                </div>
+                <div class="border border-white rounded-md overflow-hidden">
+                    <img src="./assets/IMG_8740.jpg" alt="Gallery Image 3" class="w-full h-auto">
+                </div>
+                <div class="border border-white rounded-md overflow-hidden">
+                    <img src="./assets/IMG_8638.jpg" alt="Gallery Image 3" class="w-full h-auto">
+                </div>
+                <div class="border border-white rounded-md overflow-hidden">
+                    <img src="./assets/IMG_8654.jpg" alt="Gallery Image 3" class="w-full h-auto">
+                </div>
+                <div class="border border-white rounded-md overflow-hidden">
+                    <img src="./assets/IMG_8664-2.jpg" alt="Gallery Image 3" class="w-full h-auto">
+                </div>
+                <!-- Add more placeholder images as needed -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-cran py-8">
+        <div class="container mx-auto">
+            <div class="flex justify-center items-center">
+                <img src="./assets/PNG Ritual Salad small_white.png" alt="Ritual Salad Logo" class="h-10 w-auto" />
+                <h1 class="text-lg md:text-xl font-semibold ml-4 text-black">Ritual Salad</h1>
+            </div>
+            <div class="mt-4 text-center text-gray-400">
+                <p>1802 W Superior St <br> Duluth, MN 55806</p>
+                <p>Email: info@ritualsalad.com</p>
+                <p>Phone: (218) 464-0246</p>
+            </div>
+            <div class="mt-4 flex justify-center items-center">
+                <!-- Social media icons -->
+                <a href="https://m.facebook.com/people/Ritual-Salad/61551633924342/" class="text-black hover:text-gold mx-2"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/ritualsalad/" class="text-black hover:text-gold mx-2"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for mobile menu toggle -->
+    <script>
+        document.getElementById('mobile-menu-btn').addEventListener('click', function () {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+
+</html>
