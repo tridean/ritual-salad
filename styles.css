@@ -13,12 +13,16 @@ body {
 /* Navigation styles */
 nav {
   position: absolute;
-  top: 20px; /* Adjust this value as needed to position the navbar */
+  top: 40px; /* Adjust this value as needed to position the navbar */
   width: 100%;
   z-index: 1000; /* Ensure the navbar stays on top of other content */
 }
 nav img {
   max-width: 240px; /* Adjust logo size */
+  @media (max-width: 640px) {
+    max-width: 250px;
+    padding-right: 75px;
+  }
 }
 
 nav .container {
